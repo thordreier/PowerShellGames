@@ -1,0 +1,1 @@
+$f=$n=9;$s=0,0;while($n-ge0){while(($u=$Host.UI.RawUi).KeyAvailable-and($d=$u.ReadKey(15).VirtualKeyCode-1)){}$o=@(' ')*3480;$s+=$n+=(($d*2)-75)%2*($d%2*119+1);$f-eq$n-and($f=random 3480)-or($p,$s=$s);$o[$f]='O';$s|%{$o[$_]='X'};$o-join'';sleep -M 99}
