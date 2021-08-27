@@ -1,7 +1,7 @@
 ################################################################################
 ## Quarter Kilo PowerShell Snake
 ## - A PowerShell version of the classic snake game that's only 256 bytes
-## - This version takes up XXX bytes - XXX bytes below the limit
+## - This version takes up 251 bytes - 5 bytes below the limit
 ################################################################################
 ## Should be run i a console windows with these width/height dimensions: 120x30
 ## A lot of checks a disabled, so it's harder to die!
